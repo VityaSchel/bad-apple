@@ -1,5 +1,7 @@
 # Bad Apple played on Lolzteam nicknames
 
+[YouTube video demonstration](https://yotu.be/qpPr4DzkAOA)
+
 ## How to run
 1. Go to <https://zelenka.guru/members/?type=messages>
 2. Inject src/styles.css to page's stylesheets (you can use DevTools' "inspector stylesheets")

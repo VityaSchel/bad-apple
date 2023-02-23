@@ -6,5 +6,6 @@
       const y = ~~(i/5)
       const filename = `x${x}_y${y}.webp`
       username.style.setProperty('background', `url("${your_host_server + '/' + filename}")`, 'important')
+      username.style.setProperty('-webkit-background-clip', 'text', 'important')
     })
 })()
