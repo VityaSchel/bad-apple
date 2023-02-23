@@ -5,7 +5,8 @@ Real size of table is 165.6, we will use 165 for simplier calculations. Also mut
 Each segment's width is 200/5 (=40) and height is 165/5 (=33)
 
 2. Template command is:
-ffmpeg -i in.mp4 -filter:v "crop=40:33:(40*(N%5)):(33*(~~(N/5)))" fragments/xN_yN.mp4
+ffmpeg -i in.mp4 -vcodec libwebp -filter:v "crop=40:33:(40*(N%5)):(33*(~~(N/5)))" fps=fps=30 -lossless 1 -loop 1 -preset default fragments/xN_yN.mp4
 Where N is fragment's number from 0 to 24
 
 For simplicity, I created a JS script but you can fuck your brain and try to write it in bash, go ahead
+Then run sequentially, I'm too tired to write parallel loops

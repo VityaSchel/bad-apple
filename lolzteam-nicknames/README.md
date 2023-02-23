@@ -3,7 +3,8 @@
 ## How to run
 1. Go to <https://zelenka.guru/members/?type=messages>
 2. Inject src/styles.css to page's stylesheets (you can use DevTools' "inspector stylesheets")
-3. Execute src/index.js
+3. Run basically any HTTP file server in root of bad_apple_video/fragments on 27109 port and make sure it's available in your browser on page 1
+4. Execute src/index.js
 
 This was made using clipped pieces of video instead of black&white pixels because 5x5 (or 25 pixels in total) is obviously not enough to see anything
 
