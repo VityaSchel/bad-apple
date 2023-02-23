@@ -23,8 +23,6 @@ a.avatar {
 .username span {
   text-shadow: none !important;
   background: url(https://mathiasbynens.be/demo/animated-webp-supported.webp) !important;
-  background-position: center;
-  background-size: contain;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent;
