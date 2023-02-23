@@ -6,3 +6,9 @@
 3. Execute src/index.js
 
 This was made using clipped pieces of video instead of black&white pixels because 5x5 (or 25 pixels in total) is obviously not enough to see anything
+
+At first I wanted to use GIFs but I realised it's 2023 and there are better animation formats. I heard about APNG but my research showed that WEBP has better support in tools (for example ffmpeg). 
+
+![Screenshot](https://user-images.githubusercontent.com/59040542/221032165-2a9002bc-47b6-400b-a80c-a69fa0662e2f.png)
+
+While putting different formats to background I also noticed that CSS does not allow you to resize background image, so real size of video must be the same as real size of HTML element
